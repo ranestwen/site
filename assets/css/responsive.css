@@ -1,0 +1,109 @@
+@media (max-width: 375px) {}
+@media(max-width:767px){}
+@media(max-width:768px){
+
+    .slider .polygon_container {
+        width: 150px;
+        height: 150px;
+        margin-top: none;
+        padding-top:0px;
+        bottom: 337px;
+
+    }
+    .slider .polygon {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        margin-left:auto;margin-right:auto;
+    }
+    .slider h1{
+        font-size: 22px;
+        padding-top: 47px;
+    }
+    .slider h2{
+    font-size: 8px;
+    }
+    .desktopmenu {
+        display: none;
+    }
+    #wallpapers, #logos, #business_cards, #nature, #technology, #websites, #user_interface {
+        text-align: center;
+    }
+        .main_container{
+            width: 290px;
+    text-align: center;
+    margin: auto;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .polygon {
+        width: 250px;
+    height: 250px;
+    margin-left: 24px;
+        margin: auto;
+    }
+    .mobile {
+        display: block;
+    }
+    .square2_2, .square2_3 {
+            margin-top: 90px;
+    }
+    .polygon_container {
+        margin-bottom: 0px;
+    }
+    .section3 h3, h4 {
+        text-align: center;
+    }
+    .section4 .col-md-10 h1{
+        margin-top: 20px;
+    }
+    .line {
+        margin: auto;
+    }
+    .margin {
+        margin-top: 285px;
+    }
+    .shape_container{
+        float: right;
+    margin-top: -19px;
+    }
+    .square_container {
+        margin-left: 14px;
+    }
+    .section4 .col-md-12 h1 {
+        padding-top: 11px;
+    }
+    .container_custom_1 {
+        height: 0px;
+    width: 30px;
+    margin-top: 145px;
+    margin-bottom: -107px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    }
+    .section5 h1, h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center !important;
+    }
+    .square_container3 {
+        margin-right: 3%;
+    }
+    .a_right {
+    float: none;
+    }
+
+    .frejm a {
+        text-align: center;
+    }
+
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}

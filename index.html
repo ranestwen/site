@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>
+            My page title
+        </title><!-- Meta tags -->
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta charset="utf-8">
+        <meta content="My page desc." name="description">
+        <meta content="my, tags" name="keywords">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- /Meta tags -->
+        <!-- Styles -->
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/basic.css" rel="stylesheet" type="text/css"><!-- Latest compiled and minified CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- Custom Fonts -->
+
+        <script src="https://use.fontawesome.com/19445204e2.js">
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><!-- Optional theme -->
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" id="style" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"><noscript>
+        <link href="assets/css/nojs.css" rel="stylesheet" type="text/css"></noscript><!--[if lt IE 9]>
+                <link rel="stylesheet" type="text/css" href="assets/css/ie.css">
+        <![endif]-->
+        <!-- /Styles -->
+        <!-- Standard scripts -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script><!--[if lt IE 9]>
+                <script src="assets/js/html5shiv.min.js"></script>
+                <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+        <!-- /Standard scripts -->
+
+        <script src="assets/js/jquery.js">
+        </script>
+        <script src="assets/js/owl.carousel.min.js">
+        </script>
+        </head>
+
+
+        <script>
+            var x = 1
+        function changecat(x) {
+
+            var wallpapers = document.getElementById('wallpapers');
+            var logos = document.getElementById('logos');
+            var cards = document.getElementById('business_cards');
+            var nature = document.getElementById('nature');
+            var technology = document.getElementById('technology');
+            var websites = document.getElementById('websites');
+            var interface = document.getElementById('user_interface');
+
+                if (x==0){
+                    wallpapers.className += " animated fadeIn";
+                    wallpapers.style.display = 'inline';
+                    logos.style.display = 'inline';
+                    logos.className += " animated fadeIn";
+                    cards.style.display = 'inline';
+                    cards.className += " animated fadeIn";
+                    nature.style.display = 'inline';
+                    nature.className += " animated fadeIn";
+                    technology.style.display = 'inline';
+                    technology.className += " animated fadeIn";
+                    websites.style.display = 'inline';
+                    websites.className += " animated fadeIn";
+                    interface.style.display = 'inline';
+                    interface.className += " animated fadeIn";
+
+                }
+                if (x==1){
+                    wallpapers.className += " animated fadeIn";
+                    wallpapers.style.display = 'inline';
+                    logos.style.display = 'none';
+                    cards.style.display = 'none';
+                    nature.style.display = 'none';
+                    technology.style.display = 'none';
+                    websites.style.display = 'none';
+                    interface.style.display = 'none';
+                }
+                if (x==2){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'inline';
+                    logos.className += " animated fadeIn";
+                    cards.style.display = 'none';
+                    nature.style.display = 'none';
+                    technology.style.display = 'none';
+                    websites.style.display = 'none';
+                    interface.style.display = 'none';
+                }                
+                if (x==3){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'none';
+                    cards.style.display = 'inline';
+                    cards.className += " animated fadeIn";
+                    nature.style.display = 'none';
+                    technology.style.display = 'none';
+                    websites.style.display = 'none';
+                    interface.style.display = 'none';
+                }
+                
+                if (x==4){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'none';
+                    cards.style.display = 'none';
+                    nature.style.display = 'inline';
+                    nature.className += " animated fadeIn";
+                    technology.style.display = 'none';
+                    websites.style.display = 'none';
+                    interface.style.display = 'none';
+                }
+                
+                if (x==5){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'none';
+                    cards.style.display = 'none';
+                    nature.style.display = 'none';
+                    technology.style.display = 'inline';
+                    technology.className += " animated fadeIn";
+                    websites.style.display = 'none';
+                    interface.style.display = 'none';
+                }
+                
+                if (x==6){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'none';
+                    cards.style.display = 'none';
+                    nature.style.display = 'none';
+                    technology.style.display = 'none';
+                    websites.style.display = 'inline';
+                    websites.className += " animated fadeIn";
+                    interface.style.display = 'none';
+                }
+                
+                if (x==7){
+                    wallpapers.style.display = 'none';
+                    logos.style.display = 'none';
+                    cards.style.display = 'none';
+                    nature.style.display = 'none';
+                    technology.style.display = 'none';
+                    websites.style.display = 'none';
+                    interface.style.display = 'inline';
+                    interface.className += " animated fadeIn";
+                }     
+        }   
+            function showall() {
+                document.getElementById('all_posts').style.display = 'block';
+                document.getElementById('all_posts').className += " animated fadeIn";
+
+            }
+
+                         $(document).ready(function(){
+                            $("#slider1.owl-carousel").owlCarousel({items:1,  autoplay:true, autoplayTimeout:5000, autoplayHoverPause:false,loop:true,nav:true,  navText:["<i class='fa fa-angle-left fa-5x' aria-hidden='true'></i>","<i class='fa fa-angle-right fa-5x' aria-hidden='true'></i>"]});
+                            $("#slider2.owl-carousel").owlCarousel({items:4});
+                         });
+       /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+        </script>
+
+
+    
+    <body>
+        <div class="slider">
+
+                <div id="slider1" class="owl-carousel">
+                    <div>
+                        <div class="polygon_container">
+                            <div class="polygon">
+                                <h1>
+                                    Lorem Ipsum
+                                </h1>
+                                <h2>
+                                    Single Page Template
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="img1"></div>
+                    </div>
+                    <div>
+                        <div class="polygon_container">
+                                <div class="polygon">
+                                    <h1>
+                                        Lorem Ipsum
+                                    </h1>
+                                    <h2>
+                                        Single Page Template
+                                    </h2>
+                                </div>
+                            </div>
+                        <div class="img2"></div>
+                        </div>
+                    <div>
+                        <div class="polygon_container">
+                                <div class="polygon">
+                                    <h1>
+                                        Lorem Ipsum
+                                    </h1>
+                                    <h2>
+                                        Single Page Template
+                                    </h2>
+                                </div>
+                            </div>
+                        <div class="img3"></div>
+                    </div>
+                </div>
+
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="desktopmenu">
+                <div class="container-fluid">
+                    <ul>
+                            <img src="assets/img/logo.png">
+                        <li>
+                            <a href="#contact">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="#blog">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="#services">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="#about">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="#home">HOME</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <img src="assets/img/logo.png" class="mobile">
+                <div class="dropdown"> 
+                  <button onclick="myFunction()" class="dropbtn">Menu</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">CONTACT US</a>
+                  </div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            OUR PORTFOLIO
+                        </h1>
+                        <div class="container_custom">
+                            <div class="line1"></div>
+                            <div class="diamond1"></div>
+                            <div class="diamond2"></div>
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <div class="btn_container">
+                        <button class="button" onclick="changecat(0)"><i class="fa fa-th fa-lg"></i>Show All</button> 
+                        <button class="button2" onclick="changecat(1)">Wallpapers</button> 
+                        <button class="button2" onclick="changecat(2)">Logos</button> 
+                        <button class="button2" onclick="changecat(3)">Business Cards</button> 
+                        <button class="button2" onclick="changecat(4)">Nature</button> 
+                        <button class="button2" onclick="changecat(5)">Technology</button> 
+                        <button class="button2" onclick="changecat(6)">Websites</button> 
+                        <button class="button2" onclick="changecat(7)">User Interface</button>
+                    </div>
+
+                    <div id="wallpapers">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=0" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="logos">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=12" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="business_cards">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=15" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="nature">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=18" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="technology">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=122" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="websites">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=121" alt="galleryimg">
+                        </div>
+                    </div>
+                    <div id="user_interface">
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                        <div class="col-md-4">
+                                <img src="https://unsplash.it/300?image=101" alt="galleryimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-6">
+                        <h1>
+                            SERVICES
+                        </h1>
+                        <div class="container_custom">
+                            <div class="line1"></div>
+                            <div class="diamond1"></div>
+                            <div class="diamond2"></div>
+                            <div class="line2"></div>
+                        </div>
+                        <h2>
+                            what we do and how we do it
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque optio dignissimos placeat. Quidem labore officiis nesciunt sunt amet, voluptatum optio, blanditiis. Quos possimus voluptatibus nam laboriosam est velit ipsum, laborum consequuntur harum illo itaque fugiat, placeat molestias eligendi corrupti.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-4">
+                        <div class="polygon_container">
+                            <div class="polygon">
+                                <i aria-hidden="true" class="fa fa-pencil-square-o fa-3x"></i>
+                                <h3>
+                                    DESIGN FROM SCRATCH
+                                </h3>
+                                <p>
+                                    professional design
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="polygon_container">
+                            <div class="polygon">
+                                <i class="fa fa-html5 fa-3x"></i>
+                                <h3>
+                                    HTML CODING
+                                </h3>
+                                <p>
+                                    front-end developer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="polygon_container">
+                            <div class="polygon">
+                                <i class="fa fa-cog fa-3x"></i>
+                                <h3>
+                                    WP DEVELOPMENT
+                                </h3>
+                                <p>
+                                    wordpress themes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-6">
+                        <h1>
+                            ABOUT US
+                        </h1>
+                        <div class="container_custom">
+                            <div class="line1"></div>
+                            <div class="diamond1"></div>
+                            <div class="diamond2"></div>
+                            <div class="line2"></div>
+                        </div>
+                        <h2>
+                            company biography
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque optio dignissimos placeat. Quidem labore officiis nesciunt sunt amet, voluptatum optio, blanditiis. Quos possimus voluptatibus nam laboriosam est velit ipsum, laborum consequuntur harum illo itaque fugiat, placeat molestias eligendi corrupti.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="square2_1"></div>
+                        <h3>
+                            GARY STROKE
+                        </h3>
+                        <div class="line"></div>
+                        <h4>
+                            Web Developer
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores quas cupiditate ipsam unde, corporis autem ipsum? Praesentium vitae odit autem, blanditiis sint hic, deserunt ratione id recusandae aliquam veritatis dolorum distinctio nihil?
+                        </p>
+                        <div class="main_container">
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-google-plus"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-linkedin"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="square2_2"></div>
+                        <h3>
+                            ROMAN DARK
+                        </h3>
+                        <div class="line"></div>
+                        <h4>
+                            Web Developer
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores quas cupiditate ipsam unde, corporis autem ipsum? Praesentium vitae odit autem, blanditiis sint hic, deserunt ratione id recusandae aliquam veritatis dolorum distinctio nihil?
+                        </p>
+                        <div class="main_container">
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-google-plus"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-linkedin"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="square2_3"></div>
+                        <h3>
+                            BOB WALTER
+                        </h3>
+                        <div class="line"></div>
+                        <h4>
+                            Web Developer
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores quas cupiditate ipsam unde, corporis autem ipsum? Praesentium vitae odit autem, blanditiis sint hic, deserunt ratione id recusandae aliquam veritatis dolorum distinctio nihil?
+                        </p>
+                        <div class="main_container">
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-google-plus"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                            <div class="square_container">
+                                <i aria-hidden="true" class="fa fa-linkedin"></i>
+                                <div class="icon_square" onclick="location.href='#'"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="gallery">
+                        <div class="col-md-12">
+                            <div class="line_1"></div>
+                            <div id="slider2" class="owl-carousel">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                                <img src="https://unsplash.it/300/?random" alt="slider2img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            OUR BLOG
+                        </h1>
+                        <div class="container_custom">
+                            <div class="line1"></div>
+                            <div class="diamond1"></div>
+                            <div class="diamond2"></div>
+                            <div class="line2"></div>
+                        </div>
+                        <h2>
+                            fresh news
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati, quia eum, nesciunt atque eos magni similique minus dolorem impedit illo harum nulla inventore pariatur quibusdam praesentium autem omnis beatae, consectetur sint, voluptas! Debitis totam dicta cupiditate ducimus voluptates. Officiis, tempora harum.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="rectangle2"></div>
+                        <div class="col-md-2">
+                            <div class="shape_container">
+                                <h4>
+                                    27
+                                </h4>
+                                <h5>
+                                    aug
+                                </h5>
+                                <div class="line_slanted1"></div>
+                                <div class="line_slanted2"></div>
+                                <div class="line_straight"></div>
+                                <div class="line_straight1"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <h1>
+                                ITEM SUPPORT TIMEOUT: GATHERING MORE DATA
+                            </h1>
+                            <div class="square_container2">
+                                <i aria-hidden="true" class="fa fa-comments"></i>
+                                <div class="icon_square2" onclick="location.href='#'"></div>
+                            </div>
+                            <p>
+                                4 comments
+                            </p>
+                            <div class="square_container2">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <div class="icon_square2" onclick="location.href='#'"></div>
+                            </div>
+                            <p>
+                                Ranestwen
+                            </p>
+                            <p class="size14">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 margin">
+                        <div class="rectangle2"></div>
+                        <div class="col-md-2">
+                            <div class="shape_container">
+                                <h4>
+                                    27
+                                </h4>
+                                <h5>
+                                    aug
+                                </h5>
+                                <div class="line_slanted1"></div>
+                                <div class="line_slanted2"></div>
+                                <div class="line_straight"></div>
+                                <div class="line_straight1"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <h1>
+                                A MORE BALANCED ENVATO MARKET IMPORTANT CHANGES!
+                            </h1>
+                            <div class="square_container2">
+                                <i aria-hidden="true" class="fa fa-comments"></i>
+                                <div class="icon_square2" onclick="location.href='#'"></div>
+                            </div>
+                            <p>
+                                4 comments
+                            </p>
+                            <div class="square_container2">
+                                <i aria-hidden="true" class="fa fa-user"></i>
+                                <div class="icon_square2" onclick="location.href='#'"></div>
+                            </div>
+                            <p>
+                                Ranestwen
+                            </p>
+                            <p class="size14">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="all_posts">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="rectangle2"></div>
+                            <div class="col-md-2">
+                                <div class="shape_container">
+                                    <h4>
+                                        27
+                                    </h4>
+                                    <h5>
+                                        aug
+                                    </h5>
+                                    <div class="line_slanted1"></div>
+                                    <div class="line_slanted2"></div>
+                                    <div class="line_straight"></div>
+                                    <div class="line_straight1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h1>
+                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING!
+                                </h1>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-comments"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    4 comments
+                                </p>
+                                <div class="square_container2">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    Ranestwen
+                                </p>
+                                <p class="size14">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 margin">
+                            <div class="rectangle2"></div>
+                            <div class="col-md-2">
+                                <div class="shape_container">
+                                    <h4>
+                                        27
+                                    </h4>
+                                    <h5>
+                                        aug
+                                    </h5>
+                                    <div class="line_slanted1"></div>
+                                    <div class="line_slanted2"></div>
+                                    <div class="line_straight"></div>
+                                    <div class="line_straight1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h1>
+                                    LOREM IPSUM APERIAM SIT AMET, QUISQUAM ADIPISICING!
+                                </h1>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-comments"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    4 comments
+                                </p>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-user"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    Ranestwen
+                                </p>
+                                <p class="size14">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="rectangle2"></div>
+                            <div class="col-md-2">
+                                <div class="shape_container">
+                                    <h4>
+                                        27
+                                    </h4>
+                                    <h5>
+                                        aug
+                                    </h5>
+                                    <div class="line_slanted1"></div>
+                                    <div class="line_slanted2"></div>
+                                    <div class="line_straight"></div>
+                                    <div class="line_straight1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h1>
+                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING!
+                                </h1>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-comments"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    4 comments
+                                </p>
+                                <div class="square_container2">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    Ranestwen
+                                </p>
+                                <p class="size14">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 margin">
+                            <div class="rectangle2"></div>
+                            <div class="col-md-2">
+                                <div class="shape_container">
+                                    <h4>
+                                        27
+                                    </h4>
+                                    <h5>
+                                        aug
+                                    </h5>
+                                    <div class="line_slanted1"></div>
+                                    <div class="line_slanted2"></div>
+                                    <div class="line_straight"></div>
+                                    <div class="line_straight1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h1>
+                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING!
+                                </h1>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-comments"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    4 comments
+                                </p>
+                                <div class="square_container2">
+                                    <i aria-hidden="true" class="fa fa-user"></i>
+                                    <div class="icon_square2" onclick="location.href='#'"></div>
+                                </div>
+                                <p>
+                                    Ranestwen
+                                </p>
+                                <p class="size14">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tenetur corrupti, accusantium iste fugit, labore reiciendis aperiam a! Ad, quibusdam, dolor? Laborum cupiditate praesentium sunt quae totam dolore maxime dignissimos reprehenderit nemo quaerat, veritatis modi inventore quisquam nam dicta?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="button_frame" onclick="showall()">
+                                <h1 class="browse-all">
+                                    BROWSE ALL POSTS
+                                </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>
+                            CONTACT US
+                        </h1>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="container_custom_1">
+                            <div class="line1"></div>
+                            <div class="diamond1"></div>
+                            <div class="diamond2"></div>
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>
+                            get in touch
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor libero non auctor faucibus. Vivamus quis arcu scelerisque mi consectetur auctor mattis quis leo. Sed feugiat turpis sit amet tortor faucibus, sit amet iaculis metus imperdiet. Curabitur tempus, tellus eget sagittis bibendum, metus est varius augue, sit amet imperdiet nunc quam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class='frejm'>
+                                <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                            </div><input type='text' placeholder="user">
+                            <div class='frejm'>
+                                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                            </div><input type='text' placeholder="e-mail" >
+                            <div class='frejm'>
+                                <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                            </div><input type='text' placeholder="website">
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <textarea class= "percent100" name="firstname" placeholder="Message" type="text"></textarea>
+                            <button form="form1" type="submit" value="Submit">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="separator"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                        <h4>
+                            <i class="fa fa-home fa-2x" aria-hidden="true"></i>lorem ipsum street
+                        </h4>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <h4 class="centered">
+                            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>+48 124 432 564
+                        </h4>
+                    </div>
+                    <div class="col-md-4 a_right">
+                        <h4>
+                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>info@domain.com
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section7">
+            
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHHaKiD8c7-hjKDv5GlifIqkPyr4x-hHU"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+
+                var mapOptions = {
+                    zoom: 15,
+
+                   
+                    center: new google.maps.LatLng(52.229676, 21.012229),
+                    styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                };
+
+
+                var mapElement = document.getElementById('map');
+
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(52.229676, 21.012229),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+
+        </script>
+                <div id="map"></div>
+        </div>
+        </div>
+        <div class="section8">
+            <div class="container-fluid">
+                <div class="row">  
+
+                <div class="col-md-12 centered">
+                    <div class="square_container3">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                    <div class="square_container3">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                    <div class="square_container3">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                    <div class="square_container3">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                    <div class="square_container3">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                    <div class="square_container3">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        <div class="icon_square3" onclick="location.href='#'"></div>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+        <div class="container-fluid copyinfo">
+
+
+
+                <div class="col-md-12">
+  
+                        <footer>
+                            © 2014 Navara,  All Rights Reserved
+                        </footer>   
+                </div>
+
+        </div>
+        </div>
+    </body>
+</html>
